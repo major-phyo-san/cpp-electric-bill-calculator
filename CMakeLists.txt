@@ -1,6 +1,18 @@
 cmake_minimum_required(VERSION 3.15)
-project(cpp_projects)
+project(cpp_electric_bill_calculator)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp_projects main.cpp DomesticUnits.cpp DomesticUnits.h IndustrialUnits.cpp IndustrialUnits.h cmake-build-debug/DomesticBillCalculator.cpp cmake-build-debug/DomesticBillCalculator.h IndustrialBillCalculator.cpp IndustrialBillCalculator.h BillCalculateSupport.cpp BillCalculateSupport.h)
+add_executable(cpp_electric_bill_calculator 
+BillCalculateSupport.cpp 
+BillCalculateSupport.h 
+DomesticUnits.cpp 
+DomesticUnits.h 
+IndustrialUnits.cpp 
+IndustrialUnits.h 
+DomesticBillCalculator.cpp 
+DomesticBillCalculator.h 
+IndustrialBillCalculator.cpp 
+IndustrialBillCalculator.h 
+main.cpp 
+)
