@@ -48,5 +48,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cpp_electric_bill_calculator.dir/DependInfo.cmake"
+  "CMakeFiles/-bill-calculation.dir/DependInfo.cmake"
+  "CMakeFiles/cpp-electric-bill-calculator.dir/DependInfo.cmake"
   )

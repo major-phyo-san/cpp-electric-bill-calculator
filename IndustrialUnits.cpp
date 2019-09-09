@@ -2,7 +2,7 @@
 // Created by Techman on 22/07/2019.
 //
 
-#include "IndustrialUnits.h"
+#include "include/IndustrialUnits.h"
 
 double* getIndustrialUnitSegments(double inputUnits)
 {

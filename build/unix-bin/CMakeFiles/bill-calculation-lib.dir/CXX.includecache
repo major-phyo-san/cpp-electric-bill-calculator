@@ -50,11 +50,3 @@ string
 
 D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/include/IndustrialUnits.h
 
-D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/main.cpp
-iostream
--
-include/DomesticBillCalculator.h
-D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/include/DomesticBillCalculator.h
-include/IndustrialBillCalculator.h
-D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/include/IndustrialBillCalculator.h
-

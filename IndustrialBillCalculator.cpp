@@ -2,9 +2,9 @@
 // Created by Techman on 22/07/2019.
 //
 
-#include "IndustrialBillCalculator.h"
-#include "IndustrialUnits.h"
-#include "BillCalculateSupport.h"
+#include "include/IndustrialBillCalculator.h"
+#include "include/IndustrialUnits.h"
+#include "include/BillCalculateSupport.h"
 
 using namespace std;
 

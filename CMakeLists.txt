@@ -3,16 +3,23 @@ project(cpp_electric_bill_calculator)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp_electric_bill_calculator 
+add_library(
+-bill-calculation 
 BillCalculateSupport.cpp 
-BillCalculateSupport.h 
 DomesticUnits.cpp 
-DomesticUnits.h 
 IndustrialUnits.cpp 
-IndustrialUnits.h 
 DomesticBillCalculator.cpp 
-DomesticBillCalculator.h 
 IndustrialBillCalculator.cpp 
-IndustrialBillCalculator.h 
+)
+
+add_executable(
+cpp-electric-bill-calculator 
 main.cpp 
 )
+
+target_link_libraries(
+cpp-electric-bill-calculator 
+${CMAKE_SOURCE_DIR}/build/unix-bin/lib-bill-calculation.a 
+)
+
+

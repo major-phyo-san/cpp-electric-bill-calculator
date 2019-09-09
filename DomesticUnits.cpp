@@ -2,7 +2,7 @@
 // Created by Techman on 22/07/2019.
 //
 
-#include "DomesticUnits.h"
+#include "include/DomesticUnits.h"
 
 double* getDomesticUnitSegments(double inputUnits) {
     if (inputUnits >= 0 && inputUnits <= 30) {

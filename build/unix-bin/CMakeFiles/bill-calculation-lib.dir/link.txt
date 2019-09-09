@@ -1,0 +1,2 @@
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/ar.exe qc libbill-calculation-lib.a  CMakeFiles/bill-calculation-lib.dir/BillCalculateSupport.cpp.obj CMakeFiles/bill-calculation-lib.dir/DomesticUnits.cpp.obj CMakeFiles/bill-calculation-lib.dir/IndustrialUnits.cpp.obj CMakeFiles/bill-calculation-lib.dir/DomesticBillCalculator.cpp.obj CMakeFiles/bill-calculation-lib.dir/IndustrialBillCalculator.cpp.obj
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/ranlib.exe libbill-calculation-lib.a

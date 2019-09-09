@@ -53,12 +53,14 @@ CMAKE_BINARY_DIR = D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/cpp_electric_bill_calculator.dir/all
+all: CMakeFiles/-bill-calculation.dir/all
+all: CMakeFiles/cpp-electric-bill-calculator.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/cpp_electric_bill_calculator.dir/clean
+clean: CMakeFiles/-bill-calculation.dir/clean
+clean: CMakeFiles/cpp-electric-bill-calculator.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +70,58 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/cpp_electric_bill_calculator.dir
+# Target rules for target CMakeFiles/-bill-calculation.dir
 
 # All Build rule for target.
-CMakeFiles/cpp_electric_bill_calculator.dir/all:
-	$(MAKE) -f CMakeFiles/cpp_electric_bill_calculator.dir/build.make CMakeFiles/cpp_electric_bill_calculator.dir/depend
-	$(MAKE) -f CMakeFiles/cpp_electric_bill_calculator.dir/build.make CMakeFiles/cpp_electric_bill_calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target cpp_electric_bill_calculator"
-.PHONY : CMakeFiles/cpp_electric_bill_calculator.dir/all
+CMakeFiles/-bill-calculation.dir/all:
+	$(MAKE) -f CMakeFiles/-bill-calculation.dir/build.make CMakeFiles/-bill-calculation.dir/depend
+	$(MAKE) -f CMakeFiles/-bill-calculation.dir/build.make CMakeFiles/-bill-calculation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target -bill-calculation"
+.PHONY : CMakeFiles/-bill-calculation.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cpp_electric_bill_calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp_electric_bill_calculator.dir/all
+CMakeFiles/-bill-calculation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/-bill-calculation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles 0
-.PHONY : CMakeFiles/cpp_electric_bill_calculator.dir/rule
+.PHONY : CMakeFiles/-bill-calculation.dir/rule
 
 # Convenience name for target.
-cpp_electric_bill_calculator: CMakeFiles/cpp_electric_bill_calculator.dir/rule
+-bill-calculation: CMakeFiles/-bill-calculation.dir/rule
 
-.PHONY : cpp_electric_bill_calculator
+.PHONY : -bill-calculation
 
 # clean rule for target.
-CMakeFiles/cpp_electric_bill_calculator.dir/clean:
-	$(MAKE) -f CMakeFiles/cpp_electric_bill_calculator.dir/build.make CMakeFiles/cpp_electric_bill_calculator.dir/clean
-.PHONY : CMakeFiles/cpp_electric_bill_calculator.dir/clean
+CMakeFiles/-bill-calculation.dir/clean:
+	$(MAKE) -f CMakeFiles/-bill-calculation.dir/build.make CMakeFiles/-bill-calculation.dir/clean
+.PHONY : CMakeFiles/-bill-calculation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cpp-electric-bill-calculator.dir
+
+# All Build rule for target.
+CMakeFiles/cpp-electric-bill-calculator.dir/all:
+	$(MAKE) -f CMakeFiles/cpp-electric-bill-calculator.dir/build.make CMakeFiles/cpp-electric-bill-calculator.dir/depend
+	$(MAKE) -f CMakeFiles/cpp-electric-bill-calculator.dir/build.make CMakeFiles/cpp-electric-bill-calculator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=7,8 "Built target cpp-electric-bill-calculator"
+.PHONY : CMakeFiles/cpp-electric-bill-calculator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cpp-electric-bill-calculator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp-electric-bill-calculator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles 0
+.PHONY : CMakeFiles/cpp-electric-bill-calculator.dir/rule
+
+# Convenience name for target.
+cpp-electric-bill-calculator: CMakeFiles/cpp-electric-bill-calculator.dir/rule
+
+.PHONY : cpp-electric-bill-calculator
+
+# clean rule for target.
+CMakeFiles/cpp-electric-bill-calculator.dir/clean:
+	$(MAKE) -f CMakeFiles/cpp-electric-bill-calculator.dir/build.make CMakeFiles/cpp-electric-bill-calculator.dir/clean
+.PHONY : CMakeFiles/cpp-electric-bill-calculator.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
