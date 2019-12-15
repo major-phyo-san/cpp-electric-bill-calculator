@@ -9,7 +9,7 @@ C_WARN = -Wall
 C_OPT = -O
 
 P_NAME = cpp-electric-bill-calculator
-LIB_NAME = bill-calculation-lib.a
+LIB_NAME = lib-bill-calculation.a
 
 $(P_NAME): main.cpp $(LIB_NAME)
 	$(CC) main.cpp -L. $(LIB_NAME) $(OUTPUT) $(P_NAME) $(C_OPT) $(C_STD) $(C_WARN)
