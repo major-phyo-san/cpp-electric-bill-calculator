@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin
+CMAKE_BINARY_DIR = D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/minGW-bin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cpp-electric-bill-calculator.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cpp-electric-bill-calculator.dir/flags.make
 
 CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj: CMakeFiles/cpp-electric-bill-calculator.dir/flags.make
 CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj: ../../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj"
-	C:/Users/Techman/AppData/Local/Programs/cygwin/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/minGW-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj"
+	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/main.cpp
 
 CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/main.cpp > CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.i
 
 CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/main.cpp -o CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.s
 
 # Object files for target cpp-electric-bill-calculator
 cpp__electric__bill__calculator_OBJECTS = \
@@ -80,8 +80,12 @@ cpp__electric__bill__calculator_EXTERNAL_OBJECTS =
 cpp-electric-bill-calculator.exe: CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj
 cpp-electric-bill-calculator.exe: CMakeFiles/cpp-electric-bill-calculator.dir/build.make
 cpp-electric-bill-calculator.exe: lib-bill-calculation.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp-electric-bill-calculator.exe"
-	C:/Users/Techman/AppData/Local/Programs/cygwin/bin/c++.exe     $(cpp__electric__bill__calculator_OBJECTS) $(cpp__electric__bill__calculator_EXTERNAL_OBJECTS)  -o cpp-electric-bill-calculator.exe lib-bill-calculation.a 
+cpp-electric-bill-calculator.exe: CMakeFiles/cpp-electric-bill-calculator.dir/linklibs.rsp
+cpp-electric-bill-calculator.exe: CMakeFiles/cpp-electric-bill-calculator.dir/objects1.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/minGW-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp-electric-bill-calculator.exe"
+	C:/Users/Techman/AppData/Local/Programs/cmake-3.15.0/bin/cmake.exe -E remove -f CMakeFiles/cpp-electric-bill-calculator.dir/objects.a
+	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/ar.exe cr CMakeFiles/cpp-electric-bill-calculator.dir/objects.a @CMakeFiles/cpp-electric-bill-calculator.dir/objects1.rsp
+	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe    -Wl,--whole-archive CMakeFiles/cpp-electric-bill-calculator.dir/objects.a -Wl,--no-whole-archive  -o cpp-electric-bill-calculator.exe -Wl,--out-implib,libcpp-electric-bill-calculator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cpp-electric-bill-calculator.dir/linklibs.rsp
 
 # Rule to build all files generated by this target.
 CMakeFiles/cpp-electric-bill-calculator.dir/build: cpp-electric-bill-calculator.exe
@@ -93,6 +97,6 @@ CMakeFiles/cpp-electric-bill-calculator.dir/clean:
 .PHONY : CMakeFiles/cpp-electric-bill-calculator.dir/clean
 
 CMakeFiles/cpp-electric-bill-calculator.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles/cpp-electric-bill-calculator.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/minGW-bin D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/minGW-bin D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/minGW-bin/CMakeFiles/cpp-electric-bill-calculator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp-electric-bill-calculator.dir/depend
 

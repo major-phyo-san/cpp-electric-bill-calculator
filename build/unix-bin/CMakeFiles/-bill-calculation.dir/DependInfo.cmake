@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialBillCalculator.cpp" "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj"
   "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialUnits.cpp" "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -19,5 +19,5 @@ main.cpp
 
 target_link_libraries(
 cpp-electric-bill-calculator 
-${CMAKE_SOURCE_DIR}/build/unix-bin/lib-bill-calculation.a 
+${CMAKE_SOURCE_DIR}/build/minGW-bin/lib-bill-calculation.a 
 )

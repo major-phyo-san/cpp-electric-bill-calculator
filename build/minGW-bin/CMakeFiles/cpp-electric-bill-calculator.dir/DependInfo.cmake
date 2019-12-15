@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/main.cpp" "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj"
+  "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/main.cpp" "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/minGW-bin/CMakeFiles/cpp-electric-bill-calculator.dir/main.cpp.obj"
   )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

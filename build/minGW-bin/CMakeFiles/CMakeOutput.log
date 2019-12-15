@@ -1,0 +1,61 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/3.15.0-rc3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/3.15.0-rc3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Techman/AppData/Local/Programs/cygwin/bin/make.exe cmTC_ec0d6/fast &&       1 [main] make 9420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+/usr/bin/make -f CMakeFiles/cmTC_ec0d6.dir/build.make CMakeFiles/cmTC_ec0d6.dir/build
+make[1]: Entering directory `/cygdrive/d/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec0d6.dir/testCCompiler.c.obj
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/gcc.exe    -o CMakeFiles/cmTC_ec0d6.dir/testCCompiler.c.obj   -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ec0d6.exe
+C:/Users/Techman/AppData/Local/Programs/cmake-3.15.0/bin/cmake.exe -E remove -f CMakeFiles/cmTC_ec0d6.dir/objects.a
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/ar.exe cr CMakeFiles/cmTC_ec0d6.dir/objects.a @CMakeFiles/cmTC_ec0d6.dir/objects1.rsp
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_ec0d6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ec0d6.exe -Wl,--out-implib,libcmTC_ec0d6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ec0d6.dir/linklibs.rsp
+make[1]: Leaving directory `/cygdrive/d/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Techman/AppData/Local/Programs/cygwin/bin/make.exe cmTC_43911/fast &&       1 [main] make 9704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+/usr/bin/make -f CMakeFiles/cmTC_43911.dir/build.make CMakeFiles/cmTC_43911.dir/build
+make[1]: Entering directory `/cygdrive/d/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43911.dir/testCXXCompiler.cxx.obj
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe     -o CMakeFiles/cmTC_43911.dir/testCXXCompiler.cxx.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_43911.exe
+C:/Users/Techman/AppData/Local/Programs/cmake-3.15.0/bin/cmake.exe -E remove -f CMakeFiles/cmTC_43911.dir/objects.a
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/ar.exe cr CMakeFiles/cmTC_43911.dir/objects.a @CMakeFiles/cmTC_43911.dir/objects1.rsp
+C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe      -Wl,--whole-archive CMakeFiles/cmTC_43911.dir/objects.a -Wl,--no-whole-archive  -o cmTC_43911.exe -Wl,--out-implib,libcmTC_43911.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_43911.dir/linklibs.rsp
+make[1]: Leaving directory `/cygdrive/d/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/CMakeFiles/CMakeTmp'
+
+
+

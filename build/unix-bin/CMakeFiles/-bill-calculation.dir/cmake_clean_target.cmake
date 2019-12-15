@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "lib-bill-calculation.a"
+  "-bill-calculation.lib"
 )

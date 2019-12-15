@@ -60,67 +60,67 @@ include CMakeFiles/-bill-calculation.dir/flags.make
 CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj: CMakeFiles/-bill-calculation.dir/flags.make
 CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj: ../../BillCalculateSupport.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/BillCalculateSupport.cpp
+	C:/Users/Techman/AppData/Local/Programs/cygwin/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/BillCalculateSupport.cpp
 
 CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.i"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/BillCalculateSupport.cpp > CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.s"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/BillCalculateSupport.cpp -o CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj: CMakeFiles/-bill-calculation.dir/flags.make
 CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj: ../../DomesticUnits.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticUnits.cpp
+	C:/Users/Techman/AppData/Local/Programs/cygwin/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticUnits.cpp
 
 CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.i"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticUnits.cpp > CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.s"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticUnits.cpp -o CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj: CMakeFiles/-bill-calculation.dir/flags.make
 CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj: ../../IndustrialUnits.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialUnits.cpp
+	C:/Users/Techman/AppData/Local/Programs/cygwin/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialUnits.cpp
 
 CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.i"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialUnits.cpp > CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.s"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialUnits.cpp -o CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj: CMakeFiles/-bill-calculation.dir/flags.make
 CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj: ../../DomesticBillCalculator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticBillCalculator.cpp
+	C:/Users/Techman/AppData/Local/Programs/cygwin/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticBillCalculator.cpp
 
 CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.i"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticBillCalculator.cpp > CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.s"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/DomesticBillCalculator.cpp -o CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj: CMakeFiles/-bill-calculation.dir/flags.make
 CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj: ../../IndustrialBillCalculator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialBillCalculator.cpp
+	C:/Users/Techman/AppData/Local/Programs/cygwin/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj -c D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialBillCalculator.cpp
 
 CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.i"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialBillCalculator.cpp > CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.s"
-	C:/Users/Techman/AppData/Local/sdk-frameworks/mingw64-8.1.0/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/IndustrialBillCalculator.cpp -o CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 # Object files for target -bill-calculation
 __bill__calculation_OBJECTS = \
@@ -133,19 +133,19 @@ __bill__calculation_OBJECTS = \
 # External object files for target -bill-calculation
 __bill__calculation_EXTERNAL_OBJECTS =
 
-lib-bill-calculation.a: CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj
-lib-bill-calculation.a: CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj
-lib-bill-calculation.a: CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj
-lib-bill-calculation.a: CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj
-lib-bill-calculation.a: CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj
-lib-bill-calculation.a: CMakeFiles/-bill-calculation.dir/build.make
-lib-bill-calculation.a: CMakeFiles/-bill-calculation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library lib-bill-calculation.a"
+-bill-calculation.lib: CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj
+-bill-calculation.lib: CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj
+-bill-calculation.lib: CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj
+-bill-calculation.lib: CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj
+-bill-calculation.lib: CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj
+-bill-calculation.lib: CMakeFiles/-bill-calculation.dir/build.make
+-bill-calculation.lib: CMakeFiles/-bill-calculation.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/PhyoSan/projects/cpp-projects/cpp-electric-bill-calculator/build/unix-bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library -bill-calculation.lib"
 	$(CMAKE_COMMAND) -P CMakeFiles/-bill-calculation.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/-bill-calculation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/-bill-calculation.dir/build: lib-bill-calculation.a
+CMakeFiles/-bill-calculation.dir/build: -bill-calculation.lib
 
 .PHONY : CMakeFiles/-bill-calculation.dir/build
 
