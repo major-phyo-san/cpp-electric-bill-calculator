@@ -1,2 +1,0 @@
-C:/Users/Techman/AppData/Local/Programs/cygwin/bin/ar.exe qc -bill-calculation.lib  CMakeFiles/-bill-calculation.dir/BillCalculateSupport.cpp.obj CMakeFiles/-bill-calculation.dir/DomesticUnits.cpp.obj CMakeFiles/-bill-calculation.dir/IndustrialUnits.cpp.obj CMakeFiles/-bill-calculation.dir/DomesticBillCalculator.cpp.obj CMakeFiles/-bill-calculation.dir/IndustrialBillCalculator.cpp.obj
-C:/Users/Techman/AppData/Local/Programs/cygwin/bin/ranlib.exe -bill-calculation.lib
