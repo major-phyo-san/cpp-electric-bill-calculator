@@ -4,7 +4,8 @@ project(cpp_electric_bill_calculator)
 set(CMAKE_CXX_STANDARD 17)
 
 add_library(
-bill-calculation 
+bill-calculation
+SHARED #we are dynamically linking, producing both a .dll (.so on Linux) file and a static lib file. static linking must omit this keyword.
 BillCalculateSupport.cpp 
 DomesticUnits.cpp 
 IndustrialUnits.cpp 
