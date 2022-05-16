@@ -28,4 +28,6 @@ int main()
         cout << "Invalid choice" << endl;
         main();
     }
+
+    return 0;
 }
