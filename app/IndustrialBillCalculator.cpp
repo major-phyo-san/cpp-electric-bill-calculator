@@ -23,16 +23,20 @@ string calculateIndustryBill(double inputUnits)
         outputText += "The Electrical Units should be non negative number!\n";
     }
 
-    for(int i=0; i<7; i++)
+    else
     {
-        if(acceptUnitSegments[i] == 0)
-            break;
-        unitCosts[i] = acceptUnitSegments[i] * costFactor[i];
-        outputText += "Units: " + formatOutputString(acceptUnitSegments[i]) + " x " + formatOutputString(costFactor[i]) + " Kyats Cost: " + formatOutputString(unitCosts[i]) + " Kyats \n";
-        totalCharge += unitCosts[i];
+        for (int i = 0; i < 7; i++)
+        {
+            if (acceptUnitSegments[i] == 0)
+                break;
+            unitCosts[i] = acceptUnitSegments[i] * costFactor[i];
+            outputText += "Units: " + formatOutputString(acceptUnitSegments[i]) + " x " + formatOutputString(costFactor[i]) + " Kyats Cost: " + formatOutputString(unitCosts[i]) + " Kyats \n";
+            totalCharge += unitCosts[i];
+        }
+
+        outputText += "Total Units Cost: " + formatOutputString(totalCharge) + " Kyats \n";
+        outputText += "Total Bill (maintenance fee included): " + formatOutputString(totalCharge + maintenanceFee) + " Kyats \n";
     }
 
-    outputText += "Total Units Cost: " + formatOutputString(totalCharge) + " Kyats \n";
-    outputText += "Total Bill (maintenance fee included): " + formatOutputString(totalCharge+maintenanceFee) + " Kyats \n";
     return outputText;
 }
