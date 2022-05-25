@@ -5,12 +5,15 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_library(
 bill-calculation
-#SHARED # we are dynamically linking, producing both a .dll (.so on Linux) file and a static lib file. static linking must omit this keyword.
-../../app/BillCalculateSupport.cpp 
-../../app/DomesticUnits.cpp 
-../../app/IndustrialUnits.cpp 
-../../app/DomesticBillCalculator.cpp 
-../../app/IndustrialBillCalculator.cpp 
+
+# we are dynamically linking, producing both a .dll (.so on Linux) file and a static lib file. static linking must omit this keyword.
+# SHARED 
+
+../../app/billcalculatesupport.cpp 
+../../app/domesticunits.cpp 
+../../app/industrialunits.cpp 
+../../app/domesticbillcalculator.cpp 
+../../app/industrialbillcalculator.cpp 
 )
 
 add_executable(

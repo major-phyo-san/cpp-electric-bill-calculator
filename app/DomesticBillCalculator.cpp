@@ -1,18 +1,20 @@
 //
-// Created by Techman on 22/07/2019.
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
 //
 
-#include "include/DomesticBillCalculator.h"
-#include "include/DomesticUnits.h"
-#include "include/BillCalculateSupport.h"
+#include "include/domesticbillcalculator.h"
+#include "include/domesticunits.h"
+#include "include/billcalculatesupport.h"
 
 using namespace std;
 
 string calculateDomesticBill(double inputUnits)
 {
     string outputText = "";
-    double costFactor[7] {35,50,70,90,110,120,125};
-    double unitCosts[7];
+    double costFactor [7] {35,50,70,90,110,120,125};
+    double unitCosts [7];
     double totalCharge = 0;
     double maintenanceFee = 500;
     double* acceptUnitSegments;

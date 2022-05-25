@@ -1,10 +1,12 @@
 //
-// Created by Techman on 22/07/2019.
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
 //
 
-#include "include/IndustrialBillCalculator.h"
+#include "include/industrialbillcalculator.h"
 #include "include/IndustrialUnits.h"
-#include "include/BillCalculateSupport.h"
+#include "include/billcalculatesupport.h"
 
 using namespace std;
 

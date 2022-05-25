@@ -1,11 +1,12 @@
 //
-// Created by Techman on 22/07/2019.
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
 //
 
-#ifndef CPP_PROJECTS_INDUSTRIALUNITS_H
-#define CPP_PROJECTS_INDUSTRIALUNITS_H
+#ifndef ELECTRIC_BILL_CALCULATOR_INCLUDE_INDUSTRIALUNITS_H_
+#define ELECTRIC_BILL_CALCULATOR_INCLUDE_INDUSTRIALUNITS_H_
 
 double* getIndustrialUnitSegments(double inputUnits);
-static double unitSegments[7];
 
-#endif //CPP_PROJECTS_INDUSTRIALUNITS_H
+#endif //ELECTRIC_BILL_CALCULATOR_INCLUDE_INDUSTRIALUNITS_H_
